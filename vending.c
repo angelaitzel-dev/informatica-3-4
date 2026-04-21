@@ -2,23 +2,6 @@
 
 int main(void)
 {
-    Vending Machine Stock
----------------------------
-Item name: Chips
-Price: $1.50
-Quantity available: 20
-Selection code: A
-
-Item name: Soda
-Price: $2.00
-Quantity available: 15
-Selection code: B
-
-Item name: Candy
-Price: $0.75
-Quantity available: 30
-Selection code: C
-
 int Quantity_chips = 20;
 float Price_chips = 1.50;
 char Chips = 'A';
