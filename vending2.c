@@ -16,8 +16,7 @@ char Candy= 'C';
 
 printf("Vending Machine Stock \n");
 printf("---------------------------------- \n");
-printf("Item Name: Chips\n");
-printf("Price: %.2f \n", Price_chips);
+printf("Item Name: Chips\n" "\t" "Price: %.2f \n", Price_chips);
 printf("Quantity Available: %d \n", Quantity_chips);
 printf("Selection code: %c \n", Chips);
 printf("\n");
