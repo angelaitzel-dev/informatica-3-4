@@ -10,7 +10,7 @@ int main(void)
     printf("Enter your age:");
     scanf("%d", &age);
     printf("You are %d years old!\n", age);
-    int color[50];
+    char color[50];
     printf("Enter your favorite color:");
     scanf("%s", &color);
     printf("Your favorite color is %s!\n", color);
