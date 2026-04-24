@@ -6,9 +6,13 @@ int main(void)
     printf("Enter your name:");
     scanf("%s", &name);
     printf("Hello %s!\n", name);
-    int age[50];
+    int age;
     printf("Enter your age:");
     scanf("%d", &age);
     printf("You are %d years old!\n", age);
+    int color[50];
+    printf("Enter your favorite color:");
+    scanf("%s", &color);
+    printf("Your favorite color is %s!\n", color);
 
 }
