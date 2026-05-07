@@ -18,10 +18,10 @@ int main(void)
     int Endtime2= Starttimem+Runtime2; //endtime = 61
 
     if (Endtime2 >= 60){
-        Endtime = Endtime + 1; //update variable value
+        Endtime = Endtime + (Endtime2 / 60); //update variable value
         Endtime2 = Endtime2 % 60;
     }
-    
+
     printf("The run time of the movie is %d hours and %d minutes\n", Runtime, Runtime2);
     printf("You will finish the movie at %d:%02d \n", Endtime, Endtime2);
 }
